@@ -11,7 +11,7 @@ def display_card_total(card_total)
 end
 
 def prompt_user
-  print "Type 'h' to hit or 's' to stay"
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
@@ -30,8 +30,8 @@ end
 
 def hit?
  prompt_user
-  get_user_input
-end
+ get_user_input
+end 
     deal_card + card_total
   end
   if get_user_input == 's'
