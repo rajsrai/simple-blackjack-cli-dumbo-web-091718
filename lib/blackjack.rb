@@ -28,7 +28,7 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit?(" ")
   prompt_user
   get_user_input
 if get_user_input == 'h'
