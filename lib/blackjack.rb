@@ -28,8 +28,8 @@ def initial_round
   return sum
 end
 
-def hit?(i)
- i = card_total
+def hit?(card_total)
+ card_total
  prompt_user
  get_user_input
   if get_user_input == 's'
