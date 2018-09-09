@@ -33,6 +33,7 @@ def hit?(i)
  prompt_user
  input = get_user_input
  if input == "s"
+   display_card_total
  end
 if input == 'h'
    deal_card
