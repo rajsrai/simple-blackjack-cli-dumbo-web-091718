@@ -31,9 +31,10 @@ end
 def hit?(i)
  i = 1
  prompt_user
- get_user_input
+ get_user_input = input
+ if input = "s"
  end
-if get_user_input == 'h'
+if input == 'h'
    deal_card
   deal_card + i
  else return invalid_command
