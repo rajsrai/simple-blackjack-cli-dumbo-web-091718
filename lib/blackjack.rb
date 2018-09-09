@@ -29,10 +29,10 @@ def initial_round
 end
 
 def hit?(i)
-i = card_total
+ i = card_total
  prompt_user
  get_user_input
-    deal_card + card_total
+ deal_card + card_total
   end
   if get_user_input == 's'
    card_total
