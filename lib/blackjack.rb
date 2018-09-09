@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit?
- print prompt_user
+ prompt_user
   get_user_input
 end
     deal_card + card_total
