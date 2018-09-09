@@ -29,6 +29,7 @@ def initial_round
 end
 
 def hit?(i)
+ i = 1
  prompt_user
  get_user_input
   if get_user_input == 's'
