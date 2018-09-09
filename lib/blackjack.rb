@@ -31,7 +31,7 @@ end
 def hit?(i)
  i = 1
  prompt_user
- get_user_input = input
+ input = get_user_input
  if input == "s"
  end
 if input == 'h'
