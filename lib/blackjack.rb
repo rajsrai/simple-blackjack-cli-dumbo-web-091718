@@ -31,9 +31,8 @@ end
 def hit?
   prompt_user
   input = get_user_input
-if input == 'h'
+if input == 'h' || 's'
     card_total + deal_card
-  elsif input == 's'
    return card_total
  else return invalid_command
  end
