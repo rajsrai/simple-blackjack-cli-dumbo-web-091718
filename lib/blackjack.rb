@@ -52,7 +52,7 @@ def runner
   welcome 
   initial_round
   hit?(3)
-  display_card_total
+  display_card_total(3)
 until 
   display_card_total > 21
 end
