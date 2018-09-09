@@ -32,7 +32,7 @@ def hit?(i)
  i = 1
  prompt_user
  get_user_input
- if get_user_input == 's'
+ while get_user_input == 's'
  end
 if get_user_input == 'h'
    deal_card
